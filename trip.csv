@@ -1,0 +1,41 @@
+id,Name,Type,lng,lat,Location,website
+1,Roundhay Park,Park,1.29489,53.50064,"Mansion Ln, Roundhay, Leeds LS8 2HH",https://www.leeds.gov.uk/parks-and-countryside/major-parks/roundhay-park
+2,Golden Acre Park,Park,1.35086,53.52162,"Otley Rd, Bramhope, Leeds LS16 8BQ",https://www.leeds.gov.uk/parks-and-countryside/major-parks/golden-acre-park
+3,Otley Chevin Country Park,Park,-1.69226,53.89572,"The Whitehouse Visitor Centre/Johnny La, Otley LS21 3JL",http://www.chevinforest.co.uk/
+4,Wharfemeadows Park,Park,-1.68408,53.91126,"1 Farnley Ln, Otley LS21 2AB",http://www.visitotley.co.uk/outdoors/
+5,Horsforth Hall Park,Park,-1.64808,53.83746,"Hall Ln, Horsforth, Leeds LS18 5JE",https://www.leeds.gov.uk/parks-and-countryside/your-local-park
+6,Middleton Park,Park,-1.55122,53.75327,"Town St, Middleton, Leeds LS10 3SH",https://www.leeds.gov.uk/parks-and-countryside/major-parks/middleton-park
+7,Springhead Park,Park,-1.47101,53.75023,"Park Ln, Rothwell, Leeds LS26 0DY",http://www.leeds.gov.uk/leisure/Pages/Parks-and-countryside.aspx
+8,The Hollies,Park,-1.5806,53.83562,"Bardon Grange Lodge, 103 Weetwood Ln, Weetwood, Leeds LS16 5PA",https://discoverleeds.co.uk/things-to-see-and-do/outdoors/the-hollies/
+9,Potternewton Park,Park,-1.52469,53.81957,"Harehills Ln, Leeds LS7 4HA",https://www.leeds.gov.uk/parks-and-countryside/your-local-park
+10,Skelton Lake Country Park,Park,-1.471113,53.76889,Leeds LS9 0AS,https://discoverleeds.co.uk/things-to-see-and-do/outdoors/skelton-country-park/
+11,Meanwood Park,Park,-1.57315,53.83193,"8 Tannery Square, Meanwood, Leeds LS6 4LT",http://www.leeds.gov.uk/leisure/Pages/Meanwood-Park.aspx
+12,Tropical World,Zoo,-1.50476,53.84052,"Princes Ave, Roundhay, Leeds LS8 2ER",https://tropicalworld.leeds.gov.uk/
+13,RSPB St Aidan's,Nature reserve,-1.39575,53.75327,"RSPB St Aidan's Nature Park, Astley Ln, Leeds LS26 8AL",https://www.rspb.org.uk/days-out/reserves/st-aidans/facilities
+14,Rodley Nature Reserve,Nature reserve,-1.64598,53.82273,"Moss Bridge Rd, Rodley, Leeds LS13 1HP",http://www.rodleynaturereserve.org/
+15,Hope Pastures,Nature reserve,-1.58425,53.84242,"Hope Pastures, Weetwood Ln, Weetwood, Leeds LS16 5PH",https://www.hopepastures.org/
+16,Meanwood Valley Urban Farm,Nature reserve,-1.55269,53.82095,"Sugar Well Rd, Meanwood, Leeds LS7 2QG",http://www.mvuf.org.uk/
+17,Pompocali Earthworks,Nature reserve,-1.42932,53.87436,"Scarcroft, Wetherby LS14 3AL",https://www.realyorkshireblog.com/post/the-mystery-of-pompocali-a-former-roman-settlement-or-an-honest-mistake
+18,Adel Dam Nature Reserve,Nature reserve,-1.58681,53.86846,"Otley Rd, Leeds LS16 8AG",http://ywt.org.uk/reserves/adel-dam-nature-reserve
+19,Townclose Hills Nature Reserve,Nature reserve,-1.38373,53.76921,"Westfield Ln, Kippax, Leeds LS25 7LJ",http://www.ywt.org.uk/reserves/townclose-hills
+20,Kirkstall Valley Nature Reserve,Nature reserve,-1.59305,53.80647,"Redcote Ln, Leeds LS4 2AL",http://www.ywt.org.uk/reserves/kirkstall-valley-nature-reserve
+21,Breary Marsh,Nature reserve,-1.59663,53.87105,Leeds LS16 7AN,https://discoverleeds.co.uk/things-to-see-and-do/outdoors/breary-marsh/
+22,Harewood House Trust,Historical place,-1.52727,53.89705,"Harewood, Leeds LS17 9LG",https://harewood.org/
+23,Kirkstall Abbey,Historical place,-1.60647,53.82143,"Abbey Rd, Kirkstall, Leeds LS5 3EH",https://kirkstallabbey.leeds.gov.uk/
+24,Temple Newsam,Historical place,-1.45961,53.78489,"Temple Newsam Rd, Leeds LS15 0AE",https://museumsandgalleries.leeds.gov.uk/pQBKTj/temple-newsam/home
+25,Lotherton,Historical place,-1.31825,53.81898,"Lotherton Hall, Off Collier Ln, Lotherton Ln, Aberford, Leeds LS25 3EB",https://lotherton.leeds.gov.uk/
+26,Bramham Park,Historical place,-1.38171,53.86873,"Bramham Ln, Wetherby LS23 6ND",http://www.bramhampark.co.uk/
+27,Harewood Castle,Historical place,-1.51155,53.90639,"Harewood, Leeds LS17 9LZ",http://harewood.org/
+28,The Navvies Memorial,Historical place,-1.69502,53.90495,"All Saints Churchyard, Otley LS21 3HP",https://www.visitotley.co.uk/otleys-navvies-memorial/
+29,Royal Armouries Museum,Museum,-1.53227,53.79191,"Armouries Dr, Leeds LS10 1LT",https://royalarmouries.org/venue/royal-armouries-museum/
+30,Thackray Museum Of Medicine,Museum,-1.5186,53.80827,"141 Beckett St, Harehills, Leeds LS9 7LN",http://www.thackraymuseum.co.uk/
+31,Leeds City Museum,Museum,-1.5469,53.8018,"Millennium Square, Leeds LS2 8BH",https://citymuseum.leeds.gov.uk/
+32,Leeds Industrial Museum at Armley Mills,Museum,-1.58276,53.80272,"Canal Rd, Armley, Leeds LS12 2QF",https://museumsandgalleries.leeds.gov.uk/leeds-industrial-museum/
+33,Leeds Discovery Centre,Museum,-1.53082,53.78891,"Carlisle Rd, Leeds LS10 1LB",https://museumsandgalleries.leeds.gov.uk/leeds-discovery-centre/
+34,Leeds Art Gallery,Art gallery,-1.54821,53.8001,"The Headrow, Leeds LS1 3AA",https://museumsandgalleries.leeds.gov.uk/leeds-art-gallery/
+35,Leeds Cathedral,Church,-1.54662,53.80065,"Cathedral Chambers, Great George St, Leeds LS2 8BE",https://www.dioceseofleeds.org.uk/cathedral/
+36,Mill Hill Chapel,Church,-1.5465,53.7968,"City Square, Leeds LS1 5EB",http://www.millhillchapel.org/
+37,Holy Trinity Boar Lane,Church,-1.54343,53.79669,"Boar Ln, Leeds LS1 6HW",http://www.boarlane.church/
+38,"All Saints' Church, Otley",Church,-1.69097,53.91498,"Kirkgate, Otley LS21 3HW",http://www.otleyparishchurch.org/
+39,St James Church,Church,-1.45947,53.84604,"The Grn, Seacroft, Leeds LS14 6JL",http://www.seacroftparish.org.uk/
+40,St Matts Leeds,Church,-1.58694,53.82285,"275 Burley Rd, Burley, Leeds LS4 2EL",https://www.stmattsleeds.co.uk/

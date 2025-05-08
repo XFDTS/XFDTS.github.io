@@ -1,0 +1,304 @@
+/* Main map container */  
+#mapdiv {  
+    width: 100%;  
+    height: 92.3vh;  
+    z-index: 1;  
+}  
+
+/* General page styling */  
+body {  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Arial', sans-serif;  
+    background: rgb(170, 198, 255); 
+}  
+
+
+
+/* Controls row container - makes dropdown and button appear in the same row */  
+.controls-row {  
+    display: flex;  
+    gap: 10px;  
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+
+/* Select container */  
+.select-container {  
+    position: relative;  
+    flex: 2;  
+}  
+
+.map-controls {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    z-index: 1000;  
+    background: white;  
+    padding: 10px;  
+    border-radius: 4px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}  
+
+/* Filter dropdown */  
+.place-filter {  
+    width: 100%;  
+    padding: 8px 15px;  
+    font-size: 14px;  
+    border: 1px solid #dce1e9;  
+    border-radius: 6px;  
+    background-color: white;  
+    color: #444;  
+    cursor: pointer;  
+    appearance: none;  
+    -webkit-appearance: none;  
+    -moz-appearance: none;  
+    transition: all 0.2s;  
+    height: 40px;  
+}  
+
+.place-filter:hover {  
+    border-color: #bbc1cc;  
+}  
+
+.place-filter:focus {  
+    outline: none;  
+    border-color: #3498db;  
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);  
+}  
+
+/* Dropdown arrow style */  
+.select-arrow {  
+    position: absolute;  
+    right: 15px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    pointer-events: none;  
+    color: #7f8c8d;  
+    font-size: 10px;  
+}   
+
+/* Location button */  
+#locate-me {  
+    flex: 1;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    padding: 0 15px;  
+    height: 40px;  
+    background-color: #0072be;  
+    color: white;  
+    border: none;  
+    border-radius: 6px;  
+    font-size: 14px;  
+    font-weight: 500;  
+    cursor: pointer;  
+    transition: background-color 0.3s, transform 0.1s;  
+    box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3);  
+    white-space: nowrap;  
+}  
+
+#locate-me:hover {  
+    background-color: #097acb;  
+}  
+
+#locate-me:active {  
+    transform: translateY(1px);  
+    box-shadow: 0 1px 3px rgba(47, 113, 157, 0.4);  
+}  
+
+/* Info window styling */  
+.infowindow {  
+    width: 300px;  
+    padding: 5px;  
+    font-family: 'Arial', sans-serif;  
+}  
+
+.infowindow h1 {  
+    font-size: 16px;  
+    margin: 5px 0;  
+    color: #333;  
+}  
+
+.infowindow p {  
+    margin: 5px 0;  
+    font-size: 13px;  
+}  
+
+.info-content {  
+    margin-top: 10px;  
+}  
+
+.image-container {  
+    width: 100%;  
+    height: 150px;  
+    overflow: hidden;  
+    border-radius: 4px;  
+    margin-bottom: 10px;  
+}  
+
+.image {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+    border-radius: 4px;  
+}  
+
+/* Route actions button */  
+.route-actions {  
+    margin-top: 15px;  
+}  
+
+.get-route-btn {  
+    background-color: #4CAF50;  
+    color: white;  
+    border: none;  
+    padding: 8px 12px;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    font-size: 13px;  
+    width: 100%;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+
+.get-route-btn:hover {  
+    background-color: #45a049;  
+}  
+
+.route-icon {  
+    margin-right: 5px;  
+}  
+
+/* Route loading indicator */  
+.route-loading {  
+    position: fixed;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    background-color: rgba(0, 0, 0, 0.7);  
+    color: white;  
+    padding: 15px 20px;  
+    border-radius: 5px;  
+    font-size: 14px;  
+    z-index: 2000;  
+}  
+
+/* Route information panel */  
+.route-info-panel {  
+    position: fixed;  
+    bottom: 20px;  
+    right: 20px;  
+    width: 300px;  
+    background-color: white;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);  
+    z-index: 1500;  
+    display: none;  
+}  
+
+.route-info-header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px 15px;  
+    background-color: #4a89dc;  
+    color: white;  
+    border-top-left-radius: 5px;  
+    border-top-right-radius: 5px;  
+}  
+
+.route-info-header h3 {  
+    margin: 0;  
+    font-size: 16px;  
+    font-weight: 500;  
+}  
+
+.close-btn {  
+    background: none;  
+    border: none;  
+    color: white;  
+    font-size: 20px;  
+    cursor: pointer;  
+    padding: 0;  
+    line-height: 1;  
+}  
+
+.route-info-content {  
+    padding: 15px;  
+}  
+
+.route-info-content p {  
+    margin: 8px 0;  
+    display: flex;  
+    align-items: center;  
+}  
+
+.route-info-content i {  
+    margin-right: 10px;  
+    font-size: 16px;  
+}  
+
+.destination-icon,    
+.time-icon {  
+    display: inline-block;  
+    width: 20px;  
+    text-align: center;  
+}  
+
+.route-info-footer {  
+    padding: 10px 15px;  
+    border-top: 1px solid #eee;  
+    text-align: right;  
+}  
+
+.clear-route-btn {  
+    background-color: #f44336;  
+    color: white;  
+    border: none;  
+    padding: 8px 15px;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    font-size: 13px;  
+}  
+
+.clear-route-btn:hover {  
+    background-color: #d32f2f;  
+}  
+
+.leaflet-popup-content-wrapper {  
+    padding: 0;  
+    border-radius: 5px;  
+    overflow: hidden;  
+}  
+
+/* Responsive styles for mobile */  
+@media (max-width: 768px) {  
+    .map-controls {  
+        top: 10px;  
+        left: 10px;  
+        right: 10px;  
+        width: auto;  
+    }  
+    
+    .route-info-panel {  
+        bottom: 10px;  
+        right: 10px;  
+        left: 10px;  
+        width: auto;  
+    }  
+    
+    .infowindow {  
+        width: 250px;  
+    }  
+}  
+
+#footer {
+    background: rgb(170, 198, 255); 
+    color: rgb(255, 255, 255);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: center;
+}

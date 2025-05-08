@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<title>Explore Leeds</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" /> 
+    <link rel="stylesheet" href="style.css"> 
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="tourism.js"></script>
+    <script src="jscoord-1.1.1.js"></script>
+    <script src="map.js"></script>
+</head>
+
+    <body onload= initialize()> 
+        <div class="filter-control">  
+
+            <div class="controls-row">  
+                <div class="select-container">  
+                    <select id="place-filter" class="place-filter">  
+                        <option value="all">ALL</option>  
+                        <option value="Park">Parks</option>  
+                        <option value="Zoo">Zoos</option>  
+                        <option value="Nature reserve">Nature Reserves</option>  
+                        <option value="Historical place">Historical Places</option>  
+                        <option value="Museum">Museums</option>  
+                        <option value="Church">Churches</option>  
+                        <option value="Gallery">Art Gallery</option>  
+                    </select>  
+                    <div class="select-arrow">▼</div>  
+                </div> 
+                
+                <button id="locate-me" class="locate-button">  
+                    <svg class="location-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">  
+                        <circle cx="12" cy="12" r="10"></circle>  
+                        <circle cx="12" cy="12" r="3"></circle>  
+                    </svg>  
+                    <span class="location-text">My Location</span>  
+                </button>  
+            </div>
+
+        </div>  
+
+        <div id="mapdiv"></div>
+
+        <div id="footer">
+            <h> © Leeds Tourism Map, data from Tripadvisor and Google map</h>
+        </div>
+    </body>
